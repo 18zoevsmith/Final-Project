@@ -1,0 +1,57 @@
+
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: oldlace;
+	}
+	.element {
+		margin-left: 20px;
+        margin-right: 20px;
+    }
+    .content {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        line-height: 15px;
+    }
+    .content2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 14px;
+    }
+    span.dateandloc {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        float: right;
+    }
+	.header {
+		background: url(BB.jpg) no-repeat top fixed;
+		background-size: cover;
+		text-align: center;
+		font-family: 'Vollkorn SC';
+		font-size: 80px;
+        color: black;
+	}
+	.header span {
+		font-size: 65px;		    
+	}
+    hr {
+        position: relative;
+        border: none;
+        height: 2px;
+        background: black;
+    }
+ 	h2 {
+		font-size: 40px;
+		color: white;
+		text-align: center;
+	}
+	.flex-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	
